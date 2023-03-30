@@ -31,7 +31,7 @@ void input() {
 		
 }
 
-//swap thre element st index x with the element at index y
+//swap the element st index x with the element at index y
 void swap(int x, int y)
 {
 	int temp;
@@ -97,6 +97,18 @@ void q_short(int low, int high)
 
 }
 
+void display() {
+	cout << "\n----------------" << endl;
+	cout << "Sorted Array" << endl;
+	cout << "------------------" << endl;
 
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << " ";
+	}
 
+	cout << "\n\nNumber of comparasions :" << cmp_count << endl;
+	cout << "Number of data movement :" << mov_count << endl;
+
+}
 
